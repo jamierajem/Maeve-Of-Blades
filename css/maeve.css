@@ -1,0 +1,83 @@
+/*The top part of the website containing the main heading*/
+header{
+	background-color: #2b1c85;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*Section of white spaces underneath the header*/
+body{
+	margin: 0;
+	font-family: calibri;
+	font-size: 18px;
+	line-height: 30px;
+}
+/*Applies to all heading 1 and heading 2 elements to change the font*/
+h1, h2{
+	font-family: 'Press Start 2P', cursive;
+}
+
+/*Applies to all heading 1's in the header column, in my website there is only one. More specific as it adresses the single element*/
+header h1{
+	color: white;
+	font-size: 50px
+}
+
+/*Applies to the images in the header section of the website*/
+/*This changes the radius of the image border as well as the width of the image.*/
+header img{
+	border-radius: 150px;
+    width: 300px;
+    border: 4px solid #2BE9E8;
+}
+
+/*Applies to the section in the body where the white spaces/large space of text can be found.*/
+/*This changes the formating of the main section and not the text*/
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/*Applies to the image found in the main section of the body*/
+main img{
+	max-width: 100%;
+}
+
+/*Applies to all h2 elemetns in the header (if included) and the main (if included).*/
+h2{
+	font-size: 25px;
+	color: #2b1c85;
+}
+
+/*applies to all anchor elements, in this case links to other websites*/
+a{
+	color: white;
+}
+
+/*Controls what happen when the cursor hovers above the anchor element (link)*/
+a:hover{
+	color: white;
+	background-color: #2BE9E8;
+}
+
+/*Applies to the bottom most section of the body*/
+footer{
+	background-color:  #2b1c85;
+	text-align: center;
+	color: white;
+	padding:50px;
+}
+
+/*changes the margin of the paragraphs in the footer*/
+footer p{
+	margin: 0;
+}
+
+/*Applies to all paragraphs with the class of caption*/
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}
